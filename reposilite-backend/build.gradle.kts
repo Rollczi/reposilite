@@ -105,7 +105,7 @@ dependencies {
     implementation("com.google.http-client:google-http-client:$httpClient") { exclude(group = "commons-codec", module = "commons-codec")}
     testImplementation("com.google.http-client:google-http-client-jackson2:$httpClient")
 
-    val commonsCoded = "1.17.0"
+    val commonsCoded = "1.18.0"
     api("commons-codec:commons-codec:$commonsCoded")
 
     val jansi = "2.4.1"
